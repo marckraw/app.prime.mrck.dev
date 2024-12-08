@@ -27,6 +27,7 @@
         <data android:scheme="app.prime.mrck.dev"/>
         <data android:scheme="com.app.prime.mrck.dev.development"/>
         <data android:scheme="exp+obytesapp"/>
+        <data android:scheme="exp+prime"/>
       </intent-filter>
     </activity>
   </application>

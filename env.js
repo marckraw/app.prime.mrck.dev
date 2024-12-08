@@ -36,9 +36,9 @@ require('dotenv').config({
 
 const BUNDLE_ID = 'com.app.prime.mrck.dev'; // ios bundle id
 const PACKAGE = 'com.app.prime.mrck.dev'; // android package name
-const NAME = 'app.prime.mrck.dev'; // app name
-const EXPO_ACCOUNT_OWNER = 'expo-owner'; // expo account owner
-const EAS_PROJECT_ID = 'c3e1075b-6fe7-4686-aa49-35b46a229044'; // eas project id
+const NAME = 'prime'; // app name
+const EXPO_ACCOUNT_OWNER = 'marckraw'; // expo account owner
+const EAS_PROJECT_ID = 'e1572d6e-d6ac-43a2-a2ca-612e14269e73'; // eas project id
 const SCHEME = 'app.prime.mrck.dev'; // app scheme
 
 /**

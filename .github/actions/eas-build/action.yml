@@ -74,10 +74,10 @@ runs:
       run: pnpm prebuild:${{ inputs.APP_ENV }}
       shell: bash
 
-    - name: 📱 Run Android Build
-      if: ${{ inputs.ANDROID == 'true' }}
-      run: pnpm build:${{ inputs.APP_ENV }}:android --non-interactive  --no-wait --message "Build  ${{ inputs.APP_ENV }} ${{ inputs.VERSION }}"
-      shell: bash
+    # - name: 📱 Run Android Build
+    #   if: ${{ inputs.ANDROID == 'true' }}
+    #   run: pnpm build:${{ inputs.APP_ENV }}:android --non-interactive  --no-wait --message "Build  ${{ inputs.APP_ENV }} ${{ inputs.VERSION }}"
+    #   shell: bash
 
     - name: 📱 Run IOS Build
       if: ${{ inputs.IOS == 'true' }}

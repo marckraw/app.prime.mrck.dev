@@ -68,7 +68,8 @@ jobs:
           envkey_EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
           envkey_VAR_NUMBER: 10
           envkey_VAR_BOOL: true
-          file_name: .env.staging
+          envkey_API_URL: https://dummyjson.com/
+          file_name: .env.development
 
       - name: 🏃‍♂️ Run App release
         run: |
